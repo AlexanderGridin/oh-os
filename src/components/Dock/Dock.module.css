@@ -1,41 +1,41 @@
 .wrapper {
-	position: absolute;
-	display: inline-flex;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
-	justify-content: center;
-	align-items: center;
+  position: absolute;
+  display: inline-flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-	min-width: 320px;
-	max-width: 1100px;
-	max-height: 300px;
-	overflow: hidden;
-	padding: 15px;
+  min-width: 320px;
+  max-width: 1100px;
+  max-height: 300px;
+  overflow: hidden;
+  padding: 15px;
 }
 
 .content {
-	background-color: #3b4252;
-	color: #fff;
-	padding: 7px 15px;
-	border-radius: 5px;
-	min-height: 78px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	display: flex;
-	align-items: center;
-	/* justify-content: space-between; */
-	overflow: hidden;
+  background-color: #3b4252;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 5px;
+  min-height: 78px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  overflow: hidden;
 }
 
 .intelliHide {
-	position: relative;
-	transform: translateY(calc(100% + 15px));
-	transition: transform 0.4s;
+  position: relative;
+  transform: translateY(calc(100% + 15px));
+  transition: transform 0.4s;
 }
 
 .container:hover .intelliHide {
-	transform: translateY(0);
+  transform: translateY(0);
 }
