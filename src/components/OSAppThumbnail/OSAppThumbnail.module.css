@@ -1,23 +1,23 @@
 .wrapper {
-	width: 64px;
-	height: 64px;
-	padding: 7px;
-	border-radius: 5px;
-	transition: background-color 0.4s;
+  width: 64px;
+  height: 64px;
+  padding: 7px;
+  border-radius: 5px;
+  transition: background-color 0.4s;
 }
 
 .wrapper:hover {
-	background-color: #434c5e;
-	cursor: pointer;
+  background-color: #434c5e;
+  cursor: pointer;
 }
 
 .image {
-	background-color: #4c566a;
-	border-radius: 5px;
-	width: 50px;
-	height: 50px;
+  background-color: #4c566a;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
 }
 
 .image img {
-	display: block;
+  display: block;
 }
