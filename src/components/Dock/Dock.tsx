@@ -1,4 +1,5 @@
 import { OSApp } from "../../models";
+import { useConfigSelector } from "../../store/hooks";
 import { OSAppThumbnail } from "../OSAppThumbnail";
 import styles from "./Dock.module.css";
 
@@ -7,7 +8,8 @@ interface DockProps {
 }
 
 export const Dock = ({ apps = [] }: DockProps) => {
-  const isIntelliHide = false;
+  const isIntelliHide = useConfigSelector("isIntelliHideDock");
+
   return (
     <div className={styles.wrapper}>
       <div className={`${styles.container} `}>

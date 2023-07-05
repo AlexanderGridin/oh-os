@@ -26,14 +26,13 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   overflow: hidden;
+  transform: translateY(0);
+  transition: transform 0.4s;
 }
 
 .intelliHide {
-  position: relative;
   transform: translateY(calc(100% + 15px));
-  transition: transform 0.4s;
 }
 
 .container:hover .intelliHide {
